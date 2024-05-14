@@ -5,6 +5,7 @@ session_start();
 
 if(isset($_SESSION['userId'])) {
 	header('location: http://localhost/stock/dashboard.php');	
+	//header('location: http://localhost/stock/dashboard.php');	
 }
 
 $errors = array();
